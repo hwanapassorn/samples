@@ -56,3 +56,7 @@ Route::delete('/task/{id}', function ($id) {
 
     return redirect('/');
 });
+
+Route::get('/6013150004', function () {
+    return "wa";
+});
